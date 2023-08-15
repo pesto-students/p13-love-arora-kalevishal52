@@ -1,0 +1,44 @@
+1) What is a protocol stack, and how is it used in web development?
+-> Protocol stack is a way to communicate from one machine to another, 
+    like we have a website pesto.tech and we want to open this website in our local machine, 
+    now we will enter the URL of the pesto tech it will hit the DNS server and it will recieve the IP address of the pesto.tech server 
+    now API call will be made to that server and we will get the responce, so this communication between client and server(where the website is deployed) is happened through various protocols eg. HTTP, TCP
+    and it is used in web development to connect user request to the servers where the website is deployed
+
+
+2) What are the different types of web servers, and how do they differ in terms of functionality and performance?
+-> We have various types of servers 
+    - Web server
+    - Colud server
+    - DNS server
+    - Database server, etc
+    and every server have there different roles 
+    like - webservers where we host our application that will be accessed by client
+    Colud servers where we also host the application and the colud provider will manage the maintainance
+    DNS server serves you the IP address for that URL 
+    Database servers are used to store data in a manner form 
+
+
+3) What is web hosting, and what are the different types of hosting services available for websites?
+-> Web hosting is nothing but deploying our application in a web server the app can server the request, 
+    we have different types of hosting services and we have to choose by our requirements 
+    -SharedHosting -> In which we get a port to deploy our application in a server
+    -ColudHosting -> here we will deploy our app in colud server(like AWS/AZURE) and here if we want to scale we will be able to scale the servers very easily 
+    -ManagedHosting ->Here we will have our website deployed in server but also, there are people to maintain you application they will look into it
+    -Deidcated hosting-> here if we take an example then like banking/financing sector companies will want that there data should be secured, so they will have there own private servers for that organization
+    -VPS Hosting -> ?
+
+4) What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+->  Scaling means increasing the capacity of our servers so they can server a large number of Audience, if our website got too much traffic then at some 
+    point our server will not be capable to server all those request at a good performance, so we will scale our servers
+    - horizontal scaling -> here we will add new servers and then the traffic can be handled by both the servers, there can be many servers, so 
+        if there where 100 request then the request will be divided in both the servers as per our config as loadbalancer
+    - vertical scaling -> here we will increase the memory or storage of the same server so that it can process more request 
+
+5) What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+-> SEO is a concept that when we build an website then it will be deployed and people can visit our webiste by the name of our website, 
+    but when people will search our website then they will get many webiste in the search result, so the order of the website is decided by the 
+    SEO rank, if we build our webiste that will be SEO friendly then our website rank will be increase, and it will be at the top of the result 
+
+    SEO rank will be didiced by search engines they will crawl through your  website and check the keywords, prescribed domains, backlinks, mobile friendly, site artitchure, Loading speed, based on it will rank our website 
+    
