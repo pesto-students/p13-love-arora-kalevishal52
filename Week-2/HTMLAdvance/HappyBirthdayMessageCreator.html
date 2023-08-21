@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        #brithdayForm {
+            margin: 20px 30px;
+        }
+        #brithdayForm lebel {
+            display: block;
+            padding: 10px 0px;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="brithdayForm">
+        <lebel>Message?</lebel> <input type="text" placeholder="Happy Birthday!" id="messageContent">
+
+        <lebel>Email address?</lebel> <input type="email" 
+        pattern="[A-Za-z]{3}" placeholder="" id="emailAddress">
+
+        <lebel>Date to send?</lebel> <input type="date" placeholder="dd/MM/yyyy" id="dateToSend">
+        <lebel>Message colour?</lebel> <input type="color" id="messageColor">
+        <lebel>Number of blinks?</lebel> <input type="number" id="numberOfBlinks" max="0" min="20">
+        <lebel>Music Volume</lebel> <input type="range" max="50" min="0" value="20">
+        <input type="submit" value="Send Birthday Message">
+    </form>
+</body>
+</html>
+
+
+<!-- Use the regular expression [a-zA-Z0-9-_.]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0- 9-]+)* for the email address <input> to verify the user enters what looks to be an
+ -->

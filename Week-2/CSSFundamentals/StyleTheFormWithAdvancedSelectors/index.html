@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form label {
+            display: inline-block;
+            width: 120px;
+            margin: 5px;
+        }
+        .required::after{
+            content: "*";
+            color: red;
+            position: absolute;
+        }
+        label ~ input {
+            background-color: rgb(227, 247, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Rate a Product</h1>
+    <p> <span class="required"></span> indicates required field</p>
+    <form action="">
+        <div>
+        <label class="required" for="product">Product</label>
+        <input type="text" id="product">
+    </div>
+    <div>
+        <label class="required" for="purchase-date">Purchase Date</label> <input type="date" id="purchase-date">
+    </div>
+    <div>
+        <label class="required" for="rating">Rating</label>
+        <input type="number" name="Rating" id="rating">
+    </div>
+    <div>
+        <label for="comments">Comments</label>
+        <textarea name="Comments" id="comments" cols="30" rows="4"></textarea>
+    </div>
+    <div><input type="submit" value="Submit"></div>
+    </form>
+
+</div>
+</body>
+</html>
