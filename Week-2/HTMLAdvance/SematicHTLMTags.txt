@@ -1,0 +1,14 @@
+<header>: Represents the header of a section or page.
+<nav>: Represents a section containing navigation links.
+<main>: Represents the main content of the page.
+<article>: Represents a self-contained article or piece of content.
+<section>: Represents a generic section of content.
+<aside>: Represents content that is tangentially related to the content around it.
+<footer>: Represents the footer of a section or page.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Represents headings of different levels.
+<p>: Represents a paragraph of text.
+<ul>: Represents an unordered list.
+<ol>: Represents an ordered list.
+<li>: Represents a list item.
+<a>: Represents a hyperlink.
+<img>: Represents an image.

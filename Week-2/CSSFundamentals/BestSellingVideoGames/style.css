@@ -1,0 +1,23 @@
+#container table {
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr {
+    border: 2px solid black;
+    margin: 6px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+}
+
+thead {
+    background-color: greenyellow;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(213, 245, 213);
+}

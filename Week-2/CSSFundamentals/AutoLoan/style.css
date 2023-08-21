@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    margin: 10px;
+    box-sizing: border-box;
+}
+#container table {
+    border: 1px solid black;
+    display: inline;
+    margin: 20px;
+}
+
+#container td {
+    padding: 10px;
+}
+#container th {
+    background-color: teal;
+    color: white;
+}
+
+.totalCostValue {
+    font-weight: bold;
+    color: slateblue;
+}
